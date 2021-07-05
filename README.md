@@ -1,8 +1,6 @@
-# hermezCS
+A decentralised zk-rollup focused on scaling payments and token transfers on top of Ethereum. 
 
-Hermez is a decentralised zk-rollup focused on scaling payments and token transfers on top of Ethereum. 
-
-HermezCS is a dotnet core C# SDK which allows a dotnet core C# application to integrate with the Hermez Network API.
+It is a dotnet core C# SDK which allows a dotnet core C# application to integrate with the Hermez Network API.
 
 The Hermez Network API is the layer that allows 3rd party apps and services to interface with the coordinator to explore, monitor and use the layer two features of the Hermez rollup.
 
@@ -14,7 +12,7 @@ Example of these apps include:
 
 ## Developers Guide
 
-HermezCS is developed entirely using dotnet core C# v3.1 LTS and is comprised of several projects described below:
+It is developed entirely using dotnet core C# v3.1 LTS and is comprised of several projects described below:
 
 - Abstract: Interface definitions for the SDK itself and the Client used to communicate with the Hermez API.
 - hermezclient: Implementation of the Client interface used to communicate with the Hermez API. This implementation is using HttpClient.
@@ -27,9 +25,9 @@ HermezCS is developed entirely using dotnet core C# v3.1 LTS and is comprised of
 
 In these sections we will walk through the process of using the SDK to:
 
-1. Installing HermezCS
-1. Importing HermezCS
-1. Initializing HermezCS
+1. Installing 
+1. Importing 
+1. Initializing 
 1. Checking if token exists in Hermez Network
 1. Creating a wallet
 1. Depositing Tokens from Ethereum into Hermez Network
